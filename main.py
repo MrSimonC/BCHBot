@@ -6,6 +6,7 @@ import os
 class RTM:
     def __init__(self):
         self.sc = SlackClient(os.environ['SLACK_BCHBOT'])
+        print('Token is ' + os.environ['SLACK_BCHBOT'])
         self.event = None
 
     def start(self):
