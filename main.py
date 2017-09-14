@@ -40,5 +40,6 @@ class RTM:
         self.send(input_message)
 
 if __name__ == '__main__':
+    print('Script Running')
     rtm = RTM()
     rtm.start()
